@@ -1,0 +1,18 @@
+
+(module OUTLINE_55_45_R4 (layer F.Cu)
+  (fp_text reference OUTLINE_55_45_R4 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value " " (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start 27.5 18.5) (end 27.5 -18.5) (layer Edge.Cuts) (width 0.29972))
+  (fp_line (start 23.5 -22.5) (end -23.5 -22.5) (layer Edge.Cuts) (width 0.29972))
+  (fp_line (start -27.5 -18.5) (end -27.5 18.5) (layer Edge.Cuts) (width 0.29972))
+  (fp_line (start -23.5 22.5) (end 23.5 22.5) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start -23.5 18.5) (end -23.5 22.5) (angle 90) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start 23.5 18.5) (end 27.5 18.5) (angle 90) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start 23.5 -18.5) (end 23.5 -22.5) (angle 90) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start -23.5 -18.5) (end -27.5 -18.5) (angle 90) (layer Edge.Cuts) (width 0.29972))
+)
+
