@@ -1,0 +1,18 @@
+
+(module ID-1 (layer F.Cu)
+  (fp_text reference ID-1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value " " (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start 42.8 23.81) (end 42.8 -23.81) (layer Edge.Cuts) (width 0.29972))
+  (fp_line (start 39.62 -26.99) (end -39.62 -26.99) (layer Edge.Cuts) (width 0.29972))
+  (fp_line (start -42.8 -23.81) (end -42.8 23.81) (layer Edge.Cuts) (width 0.29972))
+  (fp_line (start -39.62 26.99) (end 39.62 26.99) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start -39.62 23.81) (end -39.62 26.99) (angle 90) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start 39.62 23.81) (end 42.8 23.81) (angle 90) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start 39.62 -23.81) (end 39.62 -26.99) (angle 90) (layer Edge.Cuts) (width 0.29972))
+  (fp_arc (start -39.62 -23.81) (end -42.8 -23.81) (angle 90) (layer Edge.Cuts) (width 0.29972))
+)
+
